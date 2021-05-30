@@ -58,7 +58,7 @@ def detect_faces(detector, images, save_images=True, input_folder='dataset', out
         if save_images:
             pil_image.save(os.path.join(output_folder, image))
 
-        return ious
+    return ious
 
 
 if __name__ == '__main__':
